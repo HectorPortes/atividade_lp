@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta Get: Garagem Resenha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 1rem;
+        }
+        .garage-info {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .ads {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .ad {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .ad h3 {
+            margin-top: 0;
+            color: #000;
+        }
+        .ad ul {
+            list-style: none;
+            padding: 0;
+        }
+        .ad ul li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #000;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Garagem Resenha</h1>
+        <p>Os melhores veículos com os melhores preços</p>
+    </header>
+
+    <div class="container">
+        <div class="garage-info">
+            <p>Bem-vindo à Garagem Resenha, onde oferecemos uma seleção incrível de veículos de qualidade.</p>
+            <p>Endereço: Rua Duque de Caxias, 123 - Centro, Aquidauana, MS</p>
+        </div>
+
+        <section class="ads">
+            <div class="ad">
+                <h3>Honda Civic</h3>
+                <img 
+                    src="./images/honda-civic.jpg"
+                    alt="Honda Civic" 
+                    style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;"
+                >
+                <ul>
+                    <li><strong>Fabricante:</strong> Honda</li>
+                    <li><strong>Ano Modelo:</strong> 2021</li>
+                    <li><strong>Combustível:</strong> Gasolina</li>
+                    <li><strong>Cor:</strong> Azul</li>
+                    <li><strong>Preço:</strong> R$ 98.000,00</li>
+                </ul>
+            </div>
+            <div class="ad">
+                <h3>Ford Ranger</h3>
+                <img 
+                    src="./images/ford-ranger.jpg"
+                    alt="Ford Ranger" 
+                    style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;"
+                >
+                <ul>
+                    <li><strong>Fabricante:</strong> Ford</li>
+                    <li><strong>Ano Modelo:</strong> 2019</li>
+                    <li><strong>Combustível:</strong> Diesel</li>
+                    <li><strong>Cor:</strong> Vermelho</li>
+                    <li><strong>Preço:</strong> R$ 185.000,00</li>
+                </ul>
+            </div>
+            <div class="ad">
+                <h3>Chevrolet Onix</h3>
+                <img 
+                    src="./images/chevrolet-onix.png"
+                    alt="Chevrolet Onix" 
+                    style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;"
+                >
+                <ul>
+                    <li><strong>Fabricante:</strong> Chevrolet</li>
+                    <li><strong>Ano Modelo:</strong> 2020</li>
+                    <li><strong>Combustível:</strong> Flex</li>
+                    <li><strong>Cor:</strong> Azul</li>
+                    <li><strong>Preço:</strong> R$ 70.000,00</li>
+                </ul>
+            </div>
+            <div class="ad">
+                <h3>Volkswagen Golf</h3>
+                <img 
+                    src="./images/volkswagen-golf.jpg"
+                    alt="Volkswagen Golf" 
+                    style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;"
+                >
+                <ul>
+                    <li><strong>Fabricante:</strong> Volkswagen</li>
+                    <li><strong>Ano Modelo:</strong> 2018</li>
+                    <li><strong>Combustível:</strong> Gasolina</li>
+                    <li><strong>Cor:</strong> Cinza</li>
+                    <li><strong>Preço:</strong> R$ 85.000,00</li>
+                </ul>
+            </div>
+            <div class="ad">
+                <h3>Fiat Strada</h3>
+                <img 
+                    src="./images/fiat-strada.png"
+                    alt="Fiat Strada" 
+                    style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;"
+                >
+                <ul>
+                    <li><strong>Fabricante:</strong> Fiat</li>
+                    <li><strong>Ano Modelo:</strong> 2022</li>
+                    <li><strong>Combustível:</strong> Flex</li>
+                    <li><strong>Cor:</strong> Preto</li>
+                    <li><strong>Preço:</strong> R$ 95.000,00</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Garagem Resenha</p>
+    </footer>
+</body>
+</html>
